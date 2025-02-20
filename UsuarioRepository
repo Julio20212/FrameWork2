@@ -1,0 +1,11 @@
+package com.examplojpa.projetoJpa3.repository;
+
+	import org.springframework.data.jpa.repository.JpaRepository;
+
+	import com.examplojpa.projetoJpa3.entidade.Usuario;
+
+	public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+
+}
+
+
